@@ -1,0 +1,270 @@
+<!doctype html>
+<html>
+<head>
+	<title>CEIBA</title>
+	<link rel="stylesheet" href="style/index_style.css">
+	<link href="assets/1.css" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="script/script.js"></script>
+	<meta charset="UTF-8">
+	<link href="assets/preceiba.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="assets/preceiba.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 1400, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+<style>
+	.loader {
+  border: 5px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 5px solid #6F6D6D;
+  border-right: 5px solid #f3f3f3;
+  border-bottom: 5px solid #6F6D6D;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin s linear infinite;
+  animation: spin 2s linear infinite;
+margin-left: auto;
+		margin-right: auto;
+
+}
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  80% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(180deg); }
+}
+	[data-aos][data-aos][data-aos-delay="800"].aos-animate, body[data-aos-delay="800"] [data-aos].aos-animate {
+    transition-delay: .15s;
+}
+
+</style>
+<style type="text/css">
+
+.fa:hover {
+    opacity: .7;
+	text-decoration: none;
+}
+    #head1{
+        margin-top: 0;
+      margin-left:950px;
+      margin-bottom:10px;
+  width: 400px;
+
+    }
+    ul, ol {
+      list-style:none;
+    }
+
+    .tac li a {
+      background-color: transparent;
+      color: black;
+      padding: 20px 5px;
+      display: block;
+      text-decoration: none;
+		width: 50px;
+		height: 60px;
+    }
+    .tac > li {
+      float: left;
+
+    }
+    .tac ul a:hover {
+      background-color: skyblue;
+    }
+    .tac li ul {
+      display:none;
+      position: static;
+      min-width: 50px;
+    }
+    .tac li:hover > ul{
+      display:table-caption;
+    }
+    .tac li ul li{
+      position:relative;
+    }
+    .tac li ul li ul{
+      right:-140px;
+      top: 0px;
+    }
+    </style>
+
+<div class="containers" id="containers">
+  <div class="preloader">
+	  <a href="#"> <br><br><img src="img/Screen%20Shot%202019-07-30%20at%2021.49.39.png" width="150" height="auto"><br><br></a>
+	<a href=""> <img src="img/mexicopng"></a><br><br>
+	<a href=""> <img src="img/ingles.png"></a><br><br>
+	<a href=""> <img src="img/Flag_of_France.png"></a><br><br>
+	  <a href="#branding" class="agradecemos"><img src="img/flecha.png" width="40px" height="auto"> <br><br></a>
+	</div>
+	</div>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="1.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script>
+	AOS.init({
+		duration: 2000
+	});
+</script>
+
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="30">
+
+
+
+
+<container>
+   <script src="assets2/cerrar.js"></script>
+   	<script type="text/javascript" src="assets2/preceiba.js"></script>
+  <div id="clase">
+		 <div class="logoceiba">
+
+		     <a id="shop1" href="#" target="_blank"><img src="img/shopceiba.png" width="50"></a>
+
+			 <a id="lola"  href="#contenedor_general"><img src="img/Screen%20Shot%202019-07-30%20at%2021.49.39.png" width="150px" height="150" ></a>
+			 <div id="head1">
+				 <ul  class="tac">
+					 <li> <p class="nav-idiomas"> <img class="nav-idiomas" src="img/idioma.jpg"></p>
+						 <ul>
+							 <li><a id="a" target="_blank" href="">Esp</a></li>
+							 <li><a id="b" href="">Ing</a></li>
+							 <li><a id="c" href="">Frc</a></li>
+						 </ul>
+					 </li>
+				 </ul>
+			 </div>
+		 </div>
+		<div class="menu">
+			<div class="itemauto">
+				<nav id="navegation">
+
+				 </nav>
+			 </div>
+		</div>
+	 </div>
+</container>
+ <!--menuCONTENEDORES-->
+  		<div class="row">
+		  <nav class="glyphicon-resize-4pxvertical" id="myScrollspy">
+   				 <ul class="nav nav-pills nav-stacked col-lg-12">
+    				  <li> <a class="fa branding" href="#branding"><img src="img/menubranding.jpg"></a></li>
+     			      <li> <a class="fa disenoeditorial" href="#disenoeditorial"><img src="img/menudiseñoeditorial.jpg"></a></li>
+    				  <li> <a class="fa ilustracion" href="#ilustracion"><img src="img/menuilustracion.jpg"></a></li>
+     				  <li> <a class="fa marketingdigital" href="#marketingdigital"><img src="img/menumarketindigital.jpg"></a></li>
+	 				  <li> <a class="fa audiovisual" href="#audiovisual"><img src="img/menuaudiovisual.jpg"></a></li>
+					  <li> <a class="fa objetos3d" href="#objetos3d"><img src="img/menu3d.jpg"></a></li>
+    				  <li> <a class="fa disenoweb" href="#disenoweb"><img src="img/menudiseñoweb.jpg"></a></li>
+     				  <li> <a class="fa contacto" href="#contacto"><img src="img/menucontacto.jpg"></a></li>
+   				 </ul>
+			</nav>
+ 		 </div>
+ 		 <!--CONTENEDORES-->
+	<div class="scrolling-box">
+		<script type="text/javascript" src="1.js"></script>
+
+			<section class="bloque0" id="contenedor_general">
+		    </section>
+			 
+			<section id="branding"> 
+	 	      <meta name="viewport" content="width=device-width, initial-scale=1">
+			   <h1><a href="assets2/enconstruccion.html"><br><br>BRANDING</a></h1>
+ 			 </section>
+ 			 
+
+  		
+	  <section id="disenoeditorial"> 
+		<h1> <a href="assets2/enconstruccion.html"> <br><br>DISEÑO EDITORIAL <a/> </h1>
+        </section>
+        	
+  		   		
+  		   		
+  				<div id="ilustracion">
+  					<section id="ilustracion"> 
+					  <h1><a href="assets2/enconstruccion.html"><br><br>ILUSTRACIÓN</a></h1>
+  					</section>
+  				</div>
+  				
+  				<div id="marketingdigital">
+  					<section id="marketingdigital"> 
+  						<h1><a href="assets2/enconstruccion.html"><br><br>MARKETING DIGITAL<a/></h1>
+  					</section>
+  				</div>
+  				
+  				<section id="audiovisual"> 
+  					<h1><a href="assets2/enconstruccion.html"><br><br>AUDIOVISUAL<a/></h1>
+  				</section>
+  				
+			  	<section id="objetos3d">
+					<h1><a href="assets2/enconstruccion.html"><br><br>OBJETOS 3D<a/></h1>
+			    </section>
+			    
+			    	
+			 			 <section id="disenoweb"> 		
+  								<h1><br><br><a href="assets2/enconstruccion.html">DISEÑO WEB</a></h1>
+  									<div class="indu" data-aos="fade-down">
+ 				 						<a href="https://www.estudioiztapalapa.com"><img src="img/logo.png" width="150px" height="150"></a>
+						 		    </div>	
+  						  </section>	
+  			  
+			<section id="contacto"> 
+			
+ 			<div class="correo" data-aos="zoom-out-down">
+  				<h1><br><br>CONTACTO</h1>
+  					<form id="survey-form"> <!--llenar info-->
+       					 <label for="name" id="name-label">  NOMBRE: <input type="text"  id="name" placeholder="NAME" required><br> </label>
+       					 <label for="email" id="email-label"> CORREO <input type="email"  id="email" placeholder="MAIL" required><br> </label>
+             				<p>COMENTARIOS:</p>
+           						 <textarea class="comentarios" id="comentarios">tal tal tal ...</textarea> <br><br>
+            						 <div class="coment">
+             							 <button type="submit" value="send" id="submit"><img src="https://cdn0.iconfinder.com/data/icons/line-action-bar/48/send-512.png"  width="50" height="50"  id="enviar"></button><br><br>
+             						 </div>
+ 					 </form>
+ 			</div>	
+  				
+			</section>
+	  </div>
+	  <!--Regresaralinicio-->  
+  	    <div class="scroll-top">
+			 <a href="#contenedor_general"><br><br> <h4>regresar al inicio</h4></a>
+   		</div>
+<div class="redes">
+	<a class="fa ei" href="#"><img  src="img/Screen%20Shot%202019-07-30%20at%2021.49.39.png" height="40px" width="40px"> </a>
+	<a class="fa facebook" href="https://www.facebook.com/ceiba.coop/"><img  src="img/facebookceiba.svg" height="40"> </a>
+	<a class="fa twitter" href="https://www.instagram.com/ceiba_transmedia/?hl=en"><img  src="img/instagramcaiba.png" height="40"> </a>
+	<a class="fa instagram" href=""><img  src="img/idioma.jpg"> </a>
+	<a class="fa ei" href="http://www.estudioiztapalapa.com/"><img src="img/logo.png" height="40px" width="40px"> </a>
+</div>
+
+</body>
+</html>
